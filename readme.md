@@ -91,13 +91,9 @@ npm run build
 
 ## 🙏 致谢
 
-本插件的核心 URL 加密/解密算法参考了相关开源项目的实现，在此对原作者表示感谢。
-> （如果你的加密代码来源于某个具体的开源项目，最好在这里放上链接）
+本插件的核心 URL 加密/解密算法主要参考了 [lcandy2/webvpn-converter](https://github.com/lcandy2/webvpn-converter) 项目的实现，对原作者的开源贡献表示衷心感谢！
+
 
 ## 📄 许可证
 
 本项目基于 [MIT License](https://opensource.org/licenses/MIT) 开源。
-
-## 🙏 致谢
-
-本插件的核心 URL 加密/解密算法主要参考了 [lcandy2/webvpn-converter](https://github.com/lcandy2/webvpn-converter) 项目的实现，对原作者的开源贡献表示衷心感谢！
