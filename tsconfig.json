@@ -1,0 +1,17 @@
+﻿{
+  "compilerOptions": {
+    "target": "ESNext", // 编译到最新的 JavaScript 版本
+    "module": "ESNext", // 使用最新的模块系统
+    "moduleResolution": "node",
+    "strict": true, // 开启所有严格的类型检查
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true, // 报告未使用的局部变量
+    "noUnusedParameters": true, // 报告未使用的参数
+    "noImplicitReturns": true, // 检查并非所有代码路径都有返回值
+    "lib": ["DOM", "ESNext"], // 包含 DOM 和最新 JS 的库定义
+    "types": ["chrome", "node"] // 明确指定要包含的类型定义
+  },
+  "include": ["src/**/*.ts", "vite.config.ts"] // 告诉 TS 哪些文件需要被检查
+}

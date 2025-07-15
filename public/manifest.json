@@ -1,0 +1,31 @@
+﻿{
+  "manifest_version": 3,
+  "name": "UESTC WebVPN Redirector",
+  "version": "1.0.0",
+  "description": "根据自定义规则重定向 UESTC 域名到 WebVPN，并发送通知。",
+  "permissions": [
+    "storage",
+    "notifications",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*.uestc.edu.cn/"
+  ],
+  "background": {
+    "service_worker": "assets/background.js",
+    "type": "module"
+  },
+  "options_page": "options.html",
+  "action": {
+    "default_title": "打开设置"
+//    "default_icon": {
+//      "16": "icons/icon_16.png",
+//      "48": "icons/icon_48.png"
+//    }
+  }
+//  "icons": {
+//    "16": "icons/icon_16.png",
+//    "48": "icons/icon_48.png",
+//    "128": "icons/icon_128.png"
+//  }
+}
