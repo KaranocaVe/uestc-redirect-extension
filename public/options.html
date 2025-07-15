@@ -5,18 +5,26 @@
     <title>UESTC WebVPN 重定向设置</title>
     <style>
         body { font-family: sans-serif; padding: 1em; width: 300px; }
-        label { display: flex; align-items: center; cursor: pointer; }
+        h1 { margin-top: 0; }
+        label { display: flex; align-items: center; cursor: pointer; margin-bottom: 10px; }
         input { margin-right: 8px; }
     </style>
 </head>
 <body>
 <h1>设置</h1>
+
 <label>
     <input type="checkbox" id="enableRedirect">
     <strong>启用重定向功能</strong>
 </label>
-<p id="status" style="color: green;"></p>
 
-<script type="module" src="./assets/options.js"></script>
+<label>
+    <input type="checkbox" id="enableNotifications">
+    <strong>启用重定向通知</strong>
+</label>
+
+<p id="status" style="color: green; height: 1em;"></p>
+
+<script src="./assets/options.js"></script>
 </body>
 </html>

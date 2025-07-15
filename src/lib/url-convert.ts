@@ -60,50 +60,6 @@ interface ExtrectedUrl {
   protocol: string;
 }
 
-/**
- const extractUrl = (requiredUrl: string | URL): ExtrectedUrl => {
- let url: URL;
- let protocol: string;
- let host: string;
- let path: string;
- let port: string;
-
- const extractFromURL = (url: URL) => {
- const protocol = url.protocol.slice(0, -1);
- const host = url.host;
- const href = url.href;
- const hostIndex = href.indexOf(host);
- const hostLength = host.length;
- const path = url.href.slice(hostIndex + hostLength);
- const port = url.port;
- return { url, host, path, port, protocol };
- };
-
- try {
- url = new URL(requiredUrl);
- // if (url) {
- return extractFromURL(url);
- // } else {
- //   const urlWithProtocol = 'http://' + requiredUrl.toString().trim();
- //   if (URL.canParse(urlWithProtocol)) {
- //     url = new URL(urlWithProtocol);
- //     return extractFromURL(url);
- //   } else {
- //     // url = nodeUrl.parse(urlWithProtocol);
- //     return { url: '', host: '', path: '', port: '', protocol: '' };
- //   }
- // }
- } catch (e1) {
- const urlWithProtocol = 'http://' + requiredUrl.toString().trim();
- try {
- url = new URL(urlWithProtocol);
- return extractFromURL(url);
- } catch (e2) {
- return { url: '', host: '', path: '', port: '', protocol: '' };
- }
- }
- };*/
-
 const extractUrlLegacy = (requiredUrl: string | URL): ExtrectedUrl => {
   const url: string = requiredUrl.toString().trim();
   let protocol = 'http';
@@ -149,16 +105,6 @@ export const encryptUrl = ({
   key = KEY,
   iv = IV,
 }: ConvertConfig): string => {
-  /** Extract URL
-   *  Use Legacy instead
-   const {
-   url: extractedUrl,
-   host,
-   path,
-   port,
-   protocol
-   } = extractUrl(inputUrl);
-   */
 
   const {
     // url: extractedUrl,
