@@ -37,12 +37,7 @@
 
 #### 开发流程
 
-1. 克隆本仓库：
-
-    ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
-    ```
+1. 克隆本仓库
 
 2. 安装依赖：
 
