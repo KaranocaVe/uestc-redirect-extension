@@ -24,11 +24,5 @@
   },
   "icons": {
     "128": "icons/fav.png"
-  },
-  "language": {
-    "default": "zh-CN",
-    "supported": [
-      "zh-CN"
-    ]
   }
 }

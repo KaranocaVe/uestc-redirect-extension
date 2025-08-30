@@ -12,7 +12,6 @@
 //             },
 //         },
 //         rollupOptions: {
-//             // ★★★ This is the key setting ★★★
 //             // Preserves the entry point files as-is, preventing them from being removed.
 //             preserveEntrySignatures: 'strict',
 //
