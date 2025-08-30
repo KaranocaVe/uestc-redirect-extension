@@ -3,6 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 一个简单的 Chrome 浏览器插件，旨在帮助电子科技大学的师生在校外访问校内资源时，自动将普通 URL 转换为 WebVPN 加密链接，简化访问流程。
+<a href="https://microsoftedge.microsoft.com/addons/detail/uestc-webvpn-redirector/gaeimafnekjecfdoblnacdpfhkfepplh">
+	<img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"/>
+</a>
 
 ## ✨ 主要功能
 
