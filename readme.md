@@ -15,15 +15,11 @@
 
 您可以通过以下两种方式安装本插件：
 
-#### 1. 从 Chrome 网上应用店安装（推荐）
-
-> **注意**：此方式需要等待插件开发者将插件上传至商店。
-
-（待插件发布到 Chrome 网上应用店后，可在此处放置链接）
+#### 1. 从 Edge 网上应用店安装（已提交审核）
 
 #### 2. 手动加载（开发者模式）
 
-1.  首先，下载本项目或通过 `git clone` 将本仓库克隆到本地。
+1.  首先，下载本项目或通过 `git clone` 将本仓库克隆到本地，或者直接去Release下载编译好的成品。
 2.  在项目根目录下，运行 `npm install` 和 `npm run build`，这会在项目根目录下生成一个 `dist` 文件夹。
 3.  打开 Chrome 浏览器，地址栏输入 `chrome://extensions` 并回车。
 4.  在页面右上角，打开 **“开发者模式”** 的开关。
@@ -95,13 +91,9 @@ npm run build
 
 ## 🙏 致谢
 
-本插件的核心 URL 加密/解密算法参考了相关开源项目的实现，在此对原作者表示感谢。
-> （如果你的加密代码来源于某个具体的开源项目，最好在这里放上链接）
+本插件的核心 URL 加密/解密算法主要参考了 [lcandy2/webvpn-converter](https://github.com/lcandy2/webvpn-converter) 项目的实现，对原作者的开源贡献表示衷心感谢！
+
 
 ## 📄 许可证
 
 本项目基于 [MIT License](https://opensource.org/licenses/MIT) 开源。
-
-## 🙏 致谢
-
-本插件的核心 URL 加密/解密算法主要参考了 [lcandy2/webvpn-converter](https://github.com/lcandy2/webvpn-converter) 项目的实现，对原作者的开源贡献表示衷心感谢！
