@@ -19,19 +19,19 @@
 
 #### 2. 手动加载（开发者模式）
 
-1.  首先，下载本项目或通过 `git clone` 将本仓库克隆到本地，或者直接去Release下载编译好的成品。
-2.  在项目根目录下，运行 `npm install` 和 `npm run build`，这会在项目根目录下生成一个 `dist` 文件夹。
-3.  打开 Chrome 浏览器，地址栏输入 `chrome://extensions` 并回车。
-4.  在页面右上角，打开 **“开发者模式”** 的开关。
-5.  点击左上角的 **“加载已解压的扩展程序”** 按钮。
-6.  在弹出的文件选择框中，选择本项目下的 `dist` 文件夹，然后点击“选择文件夹”。
-7.  安装完成！插件图标会出现在浏览器右上角。
+1. 首先，下载本项目或通过 `git clone` 将本仓库克隆到本地，或者直接去 Release 下载编译好的成品。
+2. 在项目根目录下，运行 `npm install` 和 `npm run build`，这会在项目根目录下生成一个 `dist` 文件夹。
+3. 打开 Chrome 浏览器，地址栏输入 `chrome://extensions` 并回车。
+4. 在页面右上角，打开 **“开发者模式”** 的开关。
+5. 点击左上角的 **“加载已解压的扩展程序”** 按钮。
+6. 在弹出的文件选择框中，选择本项目下的 `dist` 文件夹，然后点击“选择文件夹”。
+7. 安装完成！插件图标会出现在浏览器右上角。
 
 ## 📖 使用说明
 
-1.  插件安装后默认启用。
-2.  当您在校外访问成电校内网站（如 `news.uestc.edu.cn`, `jwc.uestc.edu.cn` 等）时，插件会自动将页面重定向到 `webvpn.uestc.edu.cn` 的对应链接。
-3.  右键点击浏览器右上角的插件图标，选择**“选项”**，即可进入设置页面。
+1. 插件安装后默认启用。
+2. 当您在校外访问成电校内网站（如 `news.uestc.edu.cn`, `jwc.uestc.edu.cn` 等）时，插件会自动将页面重定向到 `webvpn.uestc.edu.cn` 的对应链接。
+3. 右键点击浏览器右上角的插件图标，选择**“选项”**，即可进入设置页面。
 
 ## 🛠️ 设置选项
 
@@ -51,29 +51,35 @@
 
 #### 开发流程
 
-1.  克隆本仓库：
+1. 克隆本仓库：
+
     ```bash
     git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
     cd your-repo-name
     ```
 
-2.  安装依赖：
+2. 安装依赖：
+
     ```bash
     npm install
     ```
 
-3.  启动开发模式：
+3. 启动开发模式：
+
     ```bash
     npm run dev
     ```
+
     此命令会以监听模式启动构建。每当您修改 `src` 目录下的文件，Vite 都会自动重新打包。您需要手动在 `chrome://extensions` 页面刷新插件来加载最新代码。
 
 #### 打包发布
 
 当您准备发布新版本时，运行以下命令：
+
 ```bash
 npm run build
 ```
+
 该命令会执行生产环境的构建，进行代码压缩、移除调试信息，并最终在项目根目录的 `package` 文件夹下生成一个可直接用于发布的 `uestc-redirect-extension.zip` 文件。
 
 ## 🔧 技术栈
@@ -92,7 +98,6 @@ npm run build
 ## 🙏 致谢
 
 本插件的核心 URL 加密/解密算法主要参考了 [lcandy2/webvpn-converter](https://github.com/lcandy2/webvpn-converter) 项目的实现，对原作者的开源贡献表示衷心感谢！
-
 
 ## 📄 许可证
 
