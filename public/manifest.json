@@ -1,8 +1,8 @@
 ﻿{
   "manifest_version": 3,
   "name": "UESTC WebVPN Redirector",
-  "version": "1.0.0",
-  "description": "根据自定义规则重定向 UESTC 域名到 WebVPN，并发送通知。",
+  "version": "1.0.1",
+  "description": "电子科技大学 WebVPN 自动重定向助手",
   "permissions": [
     "storage",
     "notifications",
@@ -24,5 +24,11 @@
   },
   "icons": {
     "128": "icons/fav.png"
+  },
+  "language": {
+    "default": "zh-CN",
+    "supported": [
+      "zh-CN"
+    ]
   }
 }
